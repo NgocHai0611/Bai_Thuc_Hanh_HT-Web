@@ -136,6 +136,64 @@
     margin-top: 20px;
 }
 
+/* <!-- Bat Dau Bai 4 --> */
+.bai4{
+    margin-top: 80px;
+}
+
+.backround1_bai4{
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    height: 210px;
+    margin-bottom: 20px;
+    box-shadow: 3px 4px 4px 4px #c3c3c3;
+}
+
+.list1{
+    margin-left: 22px;
+}
+
+.sublist > li {
+    margin-left: 100px;
+}
+
+
+.backround2_bai4{
+    justify-content: center;
+    margin: auto;
+    width: 250px;
+    height: 680px;
+    margin-bottom: 20px;
+    background-color: #ffd078;
+    box-shadow: 3px 4px 4px 4px #c3c3c3;
+    border-radius: 5px;
+}
+
+.main_list{
+    margin-left: 20px;
+}
+
+.sublist1{
+    margin-left: 30px;
+}
+
+.sublistA{
+    margin-left: 50px;
+}
+
+.sublistB{
+    margin-left: 50px;
+}
+
+.last_element_in_list{
+    margin-top: 50px;
+}
+
+.btSo{
+    color: red;
+    font-size: 24px;
+}
 
 
     
