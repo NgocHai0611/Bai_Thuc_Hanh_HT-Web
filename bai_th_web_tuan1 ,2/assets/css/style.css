@@ -4,6 +4,11 @@
     border: 0;
 }
 
+.btSo{
+    color: red;
+    font-size: 24px;
+}
+
 /* Bai 2 */
 .main__bai2 {
     position: relative;
@@ -190,10 +195,186 @@
     margin-top: 50px;
 }
 
-.btSo{
-    color: red;
-    font-size: 24px;
+/* CSS Bai 5 */
+.bai5{
+    margin-top: 30px;
+}
+
+.backround_bai5a{
+    position: relative;
+    width: 700px;
+    height: 750px;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 3px 4px 4px 4px #c3c3c3;
+    margin-bottom: 20px;
+}
+
+.paragraph1__bai5{
+    margin-left: 10px;
+}
+
+.subheader{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.subheader1{
+    position: absolute;
+    border-right: 2px solid;
+    border-color: black;
+    padding-right: 5px;
+}
+
+.subheader2{
+    position: absolute;
+    left: 10%;
+    margin-left: 15px;
+    border-right: 2px solid;
+    border-color: black;
+    padding-right: 5px;
+}
+
+.subheader3{
+    position: absolute;
+    left: 25%;
+    margin-left: 30px;
+}
+
+.list-food-paragraph1__bai5{
+    position: absolute;
+    top:17%;
+    left: 10%;
+}
+
+.end__paragraph1__bai5{
+    position: absolute;
+    top: 30%;
+}
+
+.paragraph2__bai5{
+    position: relative;
+    top: 30%;
+    left: 2%;
+}
+
+.list-food-paragraph2__bai5{
+    margin-left: 50px;
 }
 
 
-    
+.list-food-paragraph2__bai5 > li{
+    margin-top: 10px;
+}
+
+.end__paragraph2__bai5{
+    position: absolute;
+    margin-top: 30px;
+}
+
+.paragraph3__bai5{
+    position: relative;
+    top:40%;
+    left: 2%;
+}
+
+.list-food-paragraph3__bai5{
+    position: absolute;
+    left: 7%;
+    margin-top: 20px;
+}
+
+.list-food-paragraph3__bai5 > li{
+    margin-top: 5px;
+}
+
+.end__paragraph3__bai5{
+    position: absolute;
+    top: 430%;
+}
+
+.content__end__bai5a{
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
+
+.backround_bai5b{
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 3px 4px 4px 4px #c3c3c3;
+    margin-bottom: 20px;
+}
+
+.paragraph1_bai5b{
+    position: relative;
+    left: 2%;
+}
+
+.content-paragraph1_bai5b{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.list-item__bai5b{
+    position: absolute;
+    text-decoration: underline;
+    color: blue;
+    left: 10%;
+    font-size: 20px;
+}
+
+.paragraph2_bai5b{
+    position: relative;
+    top:20%;
+}
+
+.header-paragraph2{
+    margin-left: 10px;
+}
+
+.content-paragraph2{
+    margin-top: 10px;
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 2%;
+}
+
+.content-end-paragrah2{
+    position: absolute;
+    left: 2%;
+    margin-top: 70px;
+    color: blue;
+}
+
+.paragraph3_bai5b{
+    position: relative;
+    top: 40%;
+}
+
+.header-paragraph3{
+    margin-left: 10px;
+}
+
+.content-in-paragraph3{
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    left: 2%;
+}
+
+.content-end-paragraph3{
+    position: absolute;
+    top: 250%;
+    margin-top: 30px;
+    left: 2%;
+    color: blue;
+}
+
+
