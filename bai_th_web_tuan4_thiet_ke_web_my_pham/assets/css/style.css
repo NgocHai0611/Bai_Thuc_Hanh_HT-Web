@@ -746,3 +746,145 @@
     text-align: center;
     margin: auto;
 }
+
+/* CSS footer */
+
+.footer{
+    margin-top: 230px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    width: 1444px;
+    height: 432px;
+    background-color: #1d2128;
+    
+}
+
+.list-in-footer{
+    padding-top: 97px;
+    line-height: 40px;
+    font-size: 20px;
+    position: relative;
+    width: 727px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.item-in-list2-footer > li,
+.item-in-list3-footer > li,
+.item-in-list1-footer > li{
+    list-style: none;
+}
+
+.item-in-list2-footer > li >a,
+.item-in-list3-footer > li >a,
+.item-in-list1-footer > li >a{
+    color: #cdd0d5;
+    text-decoration: none;
+}
+
+.list-langue-in-footer{
+    width: 126px;
+    height: 39px;
+    border: 2px solid #cacdd2;
+}
+
+.icon-down-in-footer{
+    margin-left: 25px;
+    color: #96999f;
+}
+
+.title-in-list3-footer,
+.title-in-list2-footer,
+.title-in-list1-footer{
+    color: #dde0e5;
+}
+
+.list4-in-footer{
+    width: 400px;
+    position: absolute;
+    color: white;
+    left: 130%;
+}
+
+.title-in-list4-footer{
+    font-size: 35px;
+}
+
+.paragraph-in-list4-footer{
+    margin-top: 10px;
+}
+
+.input-in4-in-footer{
+    margin-top: 10px;
+    width: 430px;
+    height: 49px;
+    border-radius: 5px;
+}
+
+.icon-envelop-in-footer{
+    position: absolute;
+    top: 46%;
+    color: #79808b;
+    font-size: 30px;
+    left: 5%;
+}
+
+.btn-subscribe{
+    margin-top: -49px;
+    left: 76%;
+    position: absolute;
+    width: 126px;
+    padding: 20px;
+    height: 49px;
+    color: #c9e2d8;
+    background-color: #459d7a;
+    border-radius: 5px;
+}
+
+.content-in-btn-subscribe{
+    margin-top: -8px;
+}
+
+.icon-social-in-footer{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.icon-social-in-footer > a{
+    text-decoration: none;
+}
+
+.icon-twiteer-in-footer{
+    color: #2ebae8;
+}
+
+.icon-face-in-footer{
+    color: #2e6fe8;
+    margin-left: 5px;
+}
+
+.icon-linkedin-in-footer{
+    color: #7797e4;
+    margin-left: 5px;
+}
+
+.icon-yt-in-footer{
+    color: #e82e2e;
+    margin-left: 5px;
+}
+
+.no-list-style-in-sublist-in-footer{
+    list-style: none;
+}
+
+.sublist-in-list4-in-footer{
+    right: 8%;
+    position: relative;
+    width: 400px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
