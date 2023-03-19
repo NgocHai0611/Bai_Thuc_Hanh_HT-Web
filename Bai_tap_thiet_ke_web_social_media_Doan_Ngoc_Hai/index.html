@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            width: 910px;
+            background-color: bisque;
+        }
+        
+        #right {
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 90px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 32px;
+            margin-top: 50px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="assets/img/logo.png" alt="">
+                    <img class="item" src="assets/img/home.png" alt="">
+                    <img class="item" src="assets/img/cam.png" alt="" style="width: 40px; height: 40px; background-color:aqua;">
+                    <img class="item" src="assets/img/calender.png" alt="">
+                    <img class="item" src="assets/img/user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="assets/img/avatar.png" width="44" alt="">
+                    <img id="setting" src="assets/img/setting.png" alt="">
+                </div>
+            </div>
+
+            <!-- Content in center -->
+            <div id="center">
+                <!-- Start Header in center -->
+                <div class="header-in-center">
+                    <h1 class="title-in-header-center">Meeting title</h1>
+                    <div class="img-record">
+                        <div class="backround-record">
+                            <div class="icon-dot-of-record"></div>
+                            <p class="time-of-record">12:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="the-time-in-meeting-in-header">
+                    <div class="user-login-in-header">
+                        <div class="backround-in-user-login">
+                            <img src="assets/img/user.png" alt="" class="img-icon-user-in-the-metting-on-header">
+
+                        </div>
+                        <p class="name-of-user-in-header">Internal</p>
+                    </div>
+
+                    <div class="time-in-calendar-in-header">
+                        <img src="assets/img/calender_small.png" alt="" class="icon-calendar-in-header">
+                        <p class="month-and-day-on-calendar">Sep 02,2022</p>
+                    </div>
+
+                    <div class="time-in-metting">
+                        <p class="time-start-on-o-clock-in-meeting">08:00-</p>
+                        <p class="time-end-on-o-clock-in-meeting">09:00AM</p>
+                    </div>
+                </div>
+
+                <!-- End header in center -->
+
+                <!-- Start content in center -->
+                <div class="content-in-center">
+                    <div class="benjamin-crawford">
+                        <img src="assets/img/img_benjamin-in-content.png" alt="" class="img-benjamin-crawford">
+                        <div class="backround-of-employee backround-of-benjamin-crawford">
+                            <p class="name-of-employee name-of-benjamin-crawford">BENJAMIN CRAWFORD</p>
+                            <div class="icon-dot-of-employee"></div>
+                        </div>
+                        <img src="assets/img/mic_color.png" alt="" class="icon-micro-color-in-content-on-img-benjamin-crawford">
+                    </div>
+
+                    <div class="list-img-employee">
+                        <div class="christian-scott">
+                            <img src="assets/img/img_christian_scoot.png" alt="" class="img-christian-scott">
+                            <div class="backround-of-employee backround-of-christian-scott">
+                                <p class="name-of-employee name-of-christian-scott">CHRISTIAN SCOTT</p>
+                                <div class="icon-dot-of-employee icon-dot-of-christian-scott"></div>
+                            </div>
+
+                            <div class="backround-icon-mic-christian-scott">
+                                <img src="assets/img/mic1.png" alt="" class="icon-mic-christian-scott">
+                            </div>
+                            
+
+                        </div>
+
+
+                        <div class="deborah-chu">
+                            <img src="assets/img/img-deborah-chu.png" alt="" class="img-deborah-chu">
+                            <div class="backround-of-employee backround-of-deborah-chu">
+                                <div class="item-in-backround-deborah-chu">
+                                    <p class="name-of-employee name-of-deborah-chu">Deborah Chu</p>
+                                    <div class="icon-dot-of-employee icon-dot-of-deborah-chu"></div>
+                                </div>                       
+                            </div>
+
+                            <div class="backround-icon-mic-deborah-chu">
+                                <img src="assets/img/mic-mute.png" alt="" class="icon-mic-deborah-chu">
+                            </div>
+                        </div>
+
+                        <div class="jordan-nieves">
+                            <img src="assets/img/img-jordan.png" alt="" class="img-jordan-nieves">
+                            <div class="backround-of-employee backround-of-jordan-nieves">
+                                <div class="item-in-backround-jordan-nieves">
+                                    <p class="name-of-employee name-of-jordan-nieves">JORDAN NIEVES</p>
+                                    <div class="icon-dot-of-employee icon-dot-of-jordan-nieves"></div>
+                                </div>                       
+                            </div>
+
+                            <div class="backround-icon-mic-jordan-nieves">
+                                <img src="assets/img/mic1.png" alt="" class="icon-mic-jordan-nieves">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="list-item-tool-in-the-metting">
+                        <img src="assets/img/mic_grey_color.png" alt="" class="icon-micro-in-list-item-tool">
+                        <img src="assets/img/cam_color.png" alt="" class="icon-video-in-list-item-tool">
+                        <img src="assets/img/speaker_grey_color.png" alt="" class="icon-speaker-in-list-item-tool">
+                        <button class="btn-end-metting-in-list-item-tool">End Metting</button>
+                        <img src="assets/img/share-screen.png" alt="" class="icon-share-screen-in-list-item-tool">
+                        <img src="assets/img/share.png" alt="" class="icon-share-connect-in-list-item-tool">
+                        <img src="assets/img/icon-more-detail.png" alt="" class="icon-detail-in-list-item-tool">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div id="right">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

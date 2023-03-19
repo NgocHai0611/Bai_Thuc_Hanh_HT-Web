@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-in-center {
+    margin-top: 40px;
+    width: 867px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-in-header-center {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.backround-record {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+.icon-dot-of-record {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    margin-top: 5px;
+    left: 10%;
+}
+
+.time-of-record {
+    position: absolute;
+    font-size: 16px;
+    left: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+}
+
+
+/*the-time-in-meeting-in-header  */
+
+.the-time-in-meeting-in-header {
+    margin-top: 34px;
+    width: 370px;
+    height: 36px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.user-login-in-header {
+    width: 79px;
+    height: 25px;
+    background-color: #e34d73;
+    border-radius: 13px;
+    margin-left: 42px;
+}
+
+.backround-in-user-login {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.img-icon-user-in-the-metting-on-header {
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+}
+
+.name-of-user-in-header {
+    position: absolute;
+    font-size: 12px;
+    margin-left: 36px;
+    margin-top: 5px;
+    color: white;
+}
+
+.icon-calendar-in-header {
+    width: 20px;
+    height: 20px;
+}
+
+.time-in-calendar-in-header {
+    width: 120px;
+    display: flex;
+    margin-left: 19px;
+}
+
+.month-and-day-on-calendar {
+    height: 19px;
+    margin-top: 3px;
+    font-size: 15px;
+    border-right: 2px solid blue;
+    padding-right: 7px;
+}
+
+.time-in-metting {
+    width: 109px;
+    height: 19px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.time-start-on-o-clock-in-meeting {
+    margin-right: 7px;
+}
+
+
+/* Start CSS Content in center*/
+.list-img-employee{
+    display: flex;
+}
+
+
+
+.img-benjamin-crawford {
+    width: 829px;
+    height: 456px;
+    margin-left: 42px;
+    margin-top: 34px;
+}
+
+.backround-of-employee {
+    position: absolute;
+    width: 158px;
+    height: 35px;
+    background-color: #76777a;
+    border-radius: 3px;
+}
+
+.icon-dot-of-employee {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #1dd75b;
+    margin-top: -12px;
+    margin-left: 3px;
+}
+
+.name-of-employee {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.name-of-benjamin-crawford {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.backround-of-benjamin-crawford {
+    top: 30%;
+    left: 14%;
+    
+}
+
+.icon-micro-color-in-content-on-img-benjamin-crawford {
+    position: absolute;
+    right: 36%;
+    margin-top: 45px;
+}
+
+.img-christian-scott {
+    margin-top: 25px;
+    width: 257px;
+    height: 158px;
+    margin-left: 42px;
+    border-radius: 5px;
+}
+
+.name-of-christian-scott {
+    width: 150px;
+    font-size: 10px;
+    margin-left: -15px;
+    margin-top: 7px;
+}
+
+
+.icon-dot-of-christian-scott{
+    /* margin-top: 1px; */
+    position: absolute;
+   margin-top: -11px;
+}
+
+.backround-of-christian-scott {
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    border-radius: 3px;
+    margin-left: -30px;
+    top: 97%;
+    left: 14%;
+        
+}
+
+.icon-mic-christian-scott{
+    position: absolute;
+    top: 97%;
+    left: 26%;
+}
+
+/* eND Christian scoot */
+
+.deborah-chu{
+    margin-top: 23.5px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.img-deborah-chu{
+    width: 257px;
+    height: 158px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.backround-of-deborah-chu{
+    top: 97%;
+    left: 31%;
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    
+}
+
+.item-in-backround-deborah-chu{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.name-of-deborah-chu{
+    margin-left: 10px;
+
+}
+
+.icon-mic-deborah-chu{
+    position: absolute;
+    top: 97%;
+    left: 44%;
+}
+
+
+/* eND DEBORAH CHU */
+
+.jordan-nieves{
+    margin-top: 23.5px;
+    margin-left: 10px;
+}
+
+.img-jordan-nieves{
+    width: 257px;
+    height: 158px;
+    border-radius: 5px;
+    margin-left: 22px;
+}
+
+.backround-of-jordan-nieves{
+    top: 97%;
+    left: 50%;
+    position: absolute;
+    width: 101px;
+    height: 24px;
+    border-radius: 3px;
+}
+
+.item-in-backround-jordan-nieves{
+   text-align: center;
+   margin-top: 7px;
+}
+
+.name-of-jordan-nieves{
+    width: 100px;
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.icon-mic-jordan-nieves{
+    position: absolute;
+    top: 97%;
+    left: 63.5%;
+}
+
+.list-item-tool-in-the-metting{
+   display: flex;
+   justify-content: center;
+   margin-top: 24px;
+}
+
+.list-item-tool-in-the-metting > img{
+    margin-left: 18px;
+}
+
+
+
+.btn-end-metting-in-list-item-tool{
+    width: 126px;
+    height: 43px;
+    background-color: red;
+    color: white;
+    margin-left: 18px;
+
+}
+
