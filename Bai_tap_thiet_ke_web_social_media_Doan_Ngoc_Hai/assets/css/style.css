@@ -27,6 +27,7 @@
     height: 30px;
     border: 2px solid red;
     border-radius: 15px;
+    margin-top: 6px;
 }
 
 .icon-dot-of-record {
@@ -363,6 +364,7 @@
     border: 2px solid #e55d80;
     border-radius: 5px;
     margin-left: 100px;
+    margin-top: 5px;
 }
 
 .content-in-btn-add-people{
@@ -577,5 +579,169 @@
     margin-top: 34px;
 }
 
+.members-of-chat{
+    width: 440px;
+}
+
+.title-of-chat{
+    margin-top: 41px;
+    font-size: 25px;
+    margin-left: 34px;
+}
 
 
+/* Start member 1 of chat  */
+.members1-of-chat{
+    position: relative;
+}
+
+.img-members1-of-chat{
+    margin-top: 40px;
+    margin-left: 37px;
+}
+
+.status1-of-chat{
+    position: absolute;
+    display: flex;
+    margin-top: -30px;
+    left: 19%;
+}
+
+.time-of-member1-of-chat{
+    margin-left: 10px;
+}
+
+.backround-paragraph-of-member1-of-chat{
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    left: 19%;
+}
+
+.paragraph-in-chat-of-member1{
+    
+    background-color: #f8f9fa;
+}
+
+/* End member 1 of chat */
+
+/* Start member 2 of chat */
+.member2-of-chat{
+   position: relative;
+   margin-top: 51px;
+}
+
+.img-member2-of-chat{
+    margin-top: 40px;
+    margin-left: 37px;
+}
+
+.status2-of-chat{
+    position: absolute;
+    display: flex;
+    margin-top: -30px;
+    left: 19%;
+}
+
+.time-of-member2-of-chat{
+    margin-left: 10px;
+}
+
+.backround-paragraph-of-member2-of-chat{
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    left: 19%;
+}
+
+.paragraph-in-chat-of-member2{
+    
+    background-color: #f8f9fa;
+}
+/* End member2 of chat */
+
+/* Start member3 of chat */
+.member3-of-chat{
+    position: relative;
+    margin-top: 51px;
+ }
+ 
+ .img-member3-of-chat{
+     margin-top: 40px;
+     margin-left: 37px;
+ }
+ 
+ .status3-of-chat{
+     position: absolute;
+     display: flex;
+     margin-top: -30px;
+     left: 19%;
+ }
+ 
+ .time-of-member3-of-chat{
+     margin-left: 10px;
+ }
+
+ .icons-hapy-of-chat{
+    position: absolute;
+    width: 80px;
+    height: 46px;
+    margin-top: 77px;
+    left: 19%;
+ }
+/* End member3 of chat */
+
+/* Start member4 of chat */
+.member4-of-chat{
+    position: relative;
+    margin-top: 30px;
+ }
+ 
+ .img-member4-of-chat{
+     margin-top: 40px;
+     margin-left: 37px;
+ }
+
+ .name-member4-of-chat{
+
+ }
+ 
+ .status4-of-chat{
+     position: absolute;
+     display: flex;
+     margin-top: -30px;
+     left: 19%;
+ }
+
+ .input-add-in-member4-of-chat{
+    position: absolute;
+    width: 250px;
+    height: 37px;
+    margin-top: 20px;
+ }
+
+ .input-typing-in-member4-of-chat{
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    left: 38%;
+    margin-top: 15px;
+    margin-left: 3px;
+ }
+
+ .fa-face-smile{
+    position: absolute;
+    font-size: 24px;
+    margin-top: 25px;
+    left: 180%;
+ }
+
+ .icon-send{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    position: absolute;
+    left: 211%;
+ }
+
+ /* End member4 of chat */
