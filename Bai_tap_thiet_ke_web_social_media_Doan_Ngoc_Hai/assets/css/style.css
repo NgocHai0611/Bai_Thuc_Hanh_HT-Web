@@ -320,3 +320,262 @@
 
 }
 
+/* CSS Right */
+
+.participants-in-the-meeting{
+    font-size: 30px;
+    margin-top: 51px;
+}
+
+.header-in-paraticipants-in-the-meeting{
+    display: flex;
+    /* background-color: red; */
+    /* justify-content: space-evenly; */
+}
+
+.title-in-paraticipants-in-the-meeting{
+   margin-left: 34px;
+}
+
+.memeber-join-the-meeting{
+   margin-top: 8px;
+   margin-left: 5px; 
+}
+
+.icon-circle-in-member-join-the-meeting{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fdf2f4;
+}
+
+.number-people-join-the-meeting{
+    position: absolute;
+    font-size: 13px;
+    margin-left: 6px;
+    margin-top: 3px;
+    color: #e55d80;
+}
+
+.btn-add-people{
+    width: 73px;
+    height: 37px;
+    border: 2px solid #e55d80;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+
+.content-in-btn-add-people{
+    font-size: 15px;
+    color: #e55d80;
+}
+
+.member-in-the-meeting{
+    width: 440px;
+    margin-left: 36px;
+    margin-top: 26px;
+}
+
+.member-in-the-meeting > div > img{
+    margin-top: 15px;
+}
+
+
+/* Memmber1 */
+.member1-in-the-meeting{
+    width: 440px;
+    position: relative;
+    display: flex;
+}
+
+.name-of-member1-in-meeting{
+    display: flex;    
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.icon-mic-in-member1-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -13px;
+}
+
+.icon-more-detail-in-member1-in-the-meeting{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 26px;
+}
+
+.icon-cam-in-member1-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.list-icon-in-member1-in-the-meeting{
+    width: 110px;
+    margin-left: 137px;
+    display: flex;  
+}
+
+/* End member1 */
+
+/* Memeber 2 */
+.member2-in-the-meeting{
+    width: 440px;
+    position: relative;
+    display: flex;
+}
+
+.name-of-member2-in-meeting{
+    display: flex;    
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.icon-mic-in-member2-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -13px;
+}
+
+.icon-more-detail-in-member2-in-the-meeting{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 26px;
+}
+
+.icon-cam-in-member2-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.list-icon-in-member2-in-the-meeting{
+    width: 110px;
+    margin-left: 164px;
+    display: flex;  
+}
+/* End member 2 */
+
+/* Start member 3 */
+.member3-in-the-meeting{
+    width: 440px;
+    position: relative;
+    display: flex;
+}
+
+.name-of-member3-in-meeting{
+    display: flex;    
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.icon-mic-in-member3-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -13px;
+}
+
+.icon-more-detail-in-member3-in-the-meeting{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 26px;
+}
+
+.icon-cam-in-member3-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.list-icon-in-member3-in-the-meeting{
+    width: 110px;
+    margin-left: 204px;
+    display: flex;  
+}
+/* End member 3 */
+
+/* Start member 4  */
+.member4-in-the-meeting{
+    width: 440px;
+    position: relative;
+    display: flex;
+}
+
+.name-of-member4-in-meeting{
+    display: flex;    
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.icon-mic-in-member4-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: -13px;
+}
+
+.icon-more-detail-in-member4-in-the-meeting{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 26px;
+}
+
+.icon-cam-in-member4-in-the-meeting{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.list-icon-in-member4-in-the-meeting{
+    width: 110px;
+    margin-left: 177px;
+    display: flex;  
+}
+/* End member 4 */
+
+.boreder-in-under-participants{
+    width: 400px;
+    height: 1px;
+    background-color: #eff1f3;
+    margin-top: 34px;
+}
+
+
+
