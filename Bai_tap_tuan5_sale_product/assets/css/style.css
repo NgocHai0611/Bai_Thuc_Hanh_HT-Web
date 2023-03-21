@@ -2,7 +2,11 @@
     padding: 0;
     margin: 0;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Start header */
 
 .header-navbar__item {
     width: 1561px;
@@ -26,7 +30,7 @@
 }
 
 .header-navbar__list-in-left {
-    width: 459px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     margin-left: 37px;
@@ -62,7 +66,7 @@
 .icon-glass-in-header {
     position: absolute;
     margin-top: 7px;
-    left: 60%;
+    left: 63%;
 }
 
 .header-navbar__icon-in-right {
@@ -91,3 +95,93 @@
     background-color: #f3f3f4;
     margin-left: -32px;
 }
+
+
+/* End header */
+
+
+/* Start content */
+
+.content {
+    width: 1320px;
+    margin-top: 75px;
+    margin-left: 139px;
+}
+
+.content-address__headline {
+    display: flex;
+}
+
+.content-address__headline>p {
+    margin-left: 8px;
+}
+
+.content-address__headline-home,
+.content-address__headline-category {
+    color: #9095a0;
+}
+
+.content-address__product-title {
+    color: black;
+}
+
+.content-title__headline {
+    margin-top: 26px;
+    font-size: 70px;
+}
+
+.img__ratting-of-product {
+    width: 96px;
+    height: 21px;
+}
+
+.content__ratting__product {
+    display: flex;
+    margin-top: 27px;
+}
+
+
+/* Ratting product in left */
+
+.content-ratting__product-in-left {
+    width: 286px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__detail-ratting-of-product {
+    font-size: 15px;
+}
+
+.content__reviews-of-products {
+    font-size: 15px;
+    color: #9095a0;
+}
+
+.content-ratting__product-in-right {
+    margin-left: 781px;
+    display: flex;
+}
+
+.icon-share-in-content__of__ratiing-products {
+    display: flex;
+}
+
+.icon-heart-in-content__of__ratiing-products {
+    display: flex;
+}
+
+.detail-content-share {
+    margin-left: 8px;
+}
+
+.icon-heart-in-content__of__ratiing-products {
+    margin-left: 37px;
+}
+
+.detail-content-heart {
+    margin-left: 8px;
+}
+
+
+/* End content */
