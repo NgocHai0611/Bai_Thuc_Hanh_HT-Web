@@ -19,16 +19,27 @@
     justify-content: space-between;
 }
 
+.header-navbar__logo__img {
+    margin-top: -3px;
+    width: 95px;
+    height: 31px;
+}
+
 .header-navbar__list-in-left {
     width: 459px;
     display: flex;
     justify-content: space-between;
     margin-left: 37px;
-    margin-top: 20px;
 }
 
 .header-navbar__list-in-left>li {
     list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-navbar__list-in-left>li>p {
+    font-size: 18px;
 }
 
 .header-navbar__home {
@@ -38,7 +49,6 @@
 }
 
 .header-navbar__item-right {
-    margin-top: 13px;
     display: flex;
     margin-left: 332px;
 }
@@ -52,7 +62,7 @@
 .icon-glass-in-header {
     position: absolute;
     margin-top: 7px;
-    left: 63%;
+    left: 60%;
 }
 
 .header-navbar__icon-in-right {
@@ -62,13 +72,22 @@
 }
 
 .header-navbar-item-icon-bell-in-header-in-right {
-    /* width: 26px;
-    height: 29px; */
+    width: 26px;
+    height: 29px;
 }
 
 .header-navbar-item-icon-cart-in-header-in-right {
-    /* width: 29px;
-    height: 27px; */
+    width: 29px;
+    height: 27px;
     margin-left: 17px;
     margin-right: 17px;
+}
+
+.border-underline-header {
+    margin-top: 48px;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #f3f3f4;
+    margin-left: -32px;
 }
