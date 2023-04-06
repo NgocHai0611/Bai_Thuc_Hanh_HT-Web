@@ -214,7 +214,346 @@
     margin-top: 15px;
 }
 
-
 /* end img-product-in-content */
+
+.detail-product{
+    display: flex;
+}
+
+#left-detail-of-product-in-content{
+    margin-top: 48px;
+    width: 777px;
+    height: 327px;
+}
+
+.paragraph-detail-product{
+    width: 777px;
+    height: 312px;
+    margin-top: 26px;
+    margin-bottom: 3px;
+}
+
+.paragraph-detail-product1{
+    position: absolute;
+    width: 777px;
+    height: 312px;
+    margin-top: -230px;
+}
+
+.item-icon-in-left-detail-of-product{
+    width: 380px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+}
+
+.icon-chat,
+.icon-no-connect,
+.icon-truck{
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon-check,
+.icon-medal,
+.icon-return{
+    margin-top: 20px;
+    display: flex;
+}
+
+#icon-in-left-in-content > div > p,
+#icon-in-right-in-content > div > p{
+    margin-left: 10px;
+}
+
+
+#right-detail-of-product-in-content{
+    margin-top: 48px;
+    margin-left: 81px;
+}
+
+.price-of-product{
+    margin-left: 240px;
+    color: #00bdd6;
+}
+
+.choice-color{
+    margin-top: 27px;
+    width: 300px;
+    height: 32px;
+    background-color: #f3f4f6;
+}
+
+.choice-size{
+    margin-top: 16px;
+    width: 300px;
+    height: 32px;
+    background-color: #f3f4f6;
+}
+
+.choice-quantity{
+    margin-top: 16px;
+    width: 300px;
+    height: 32px;
+    background-color: #f3f4f6;
+}
+
+.lable-in-right-detail-of-product-in-content{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.lb_total-in-right-in-content{
+    color: #989ca6;
+}
+
+.price-of-all-product{
+    font-size: 15px;
+}
+
+.btn-buy-now-in-content{
+    margin-top: 30px;
+    width: 300px;
+    height: 32px;
+    background-color:#00bdd6;
+    color: white;
+}
+
+.btn-add-to-cart-in-content{
+    margin-top: 30px;
+    width: 300px;
+    height: 32px;
+    background-color:#f3f4f6;
+    color:#00bdd6;
+    border: 2px solid #00bdd6;
+}
+
+.img-cart-in-content{
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    margin-left: -25px;
+    margin-top: -4px;
+}
+
+/*Start Reviews of product */
+.main-of-review{
+    margin-top: 154px;
+    display: grid;
+    width: 1179px;
+    height: 315px;
+    grid-template-columns: 582px 582px;
+    grid-template-rows: 60px 244px;
+    grid-template-areas: 
+    "header header"
+    "left right";
+    column-gap: 7px;
+}
+
+.header-of-review{
+    width: 1162px;
+    height: 151px;
+    grid-area: header;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-of-review{
+    margin-top: 10px;
+    width: 350px;
+    height: 41px;
+    display: flex;
+}
+
+.title-of-review{
+    font-size: 25px;
+}
+
+.img-start-of-review-in-content{
+    margin-top: 5px;
+    width: 19px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+.number-of-rating-of-review{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.quantity-of-reviews{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #8e949f;
+}
+
+
+#right-of-review{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.show-review{
+    color: #8e949f;
+}
+
+.icon-next-of-review{
+    margin-top: 1px;
+    margin-left: 5px;
+    color: #8e949f;
+}
+
+.left-member-review{
+    grid-area: left;
+    /* background-color: yellow; */
+    margin-top: 6px;
+}
+
+/* Start rv left member 1 */
+.detail-member1-of-review{
+    display: flex;
+}
+
+.name-of-member1{
+    margin-left: 10px;  
+    font-size: 15px;
+}
+
+.time-online-member1-in-left{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+.img-rating-of-member1{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -18px;
+}
+
+.paragraph-review-of-member1{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+
+
+/* End rv left member 1 */
+
+/* Start rv left member 2 */
+.member2-of-review-in-left{
+    margin-top: 40px;
+}
+
+.detail-member2-of-review{
+    display: flex;
+}
+
+
+.name-of-member2{
+    margin-left: 10px;  
+    font-size: 15px;
+}
+
+.time-online-member2-in-left{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+.img-rating-of-member2{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -18px;
+}
+
+.paragraph-review-of-member2{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* End rv right member 2 */
+
+
+.right-member-review{
+    grid-area: right;
+    /* background-color: green; */
+    margin-top: 6px;
+}
+
+
+/* Start member1 in left of review */
+.detail-member1-of-review-in-right{
+    display: flex;
+}
+
+.name-of-member1-in-right{
+    margin-left: 10px;  
+    font-size: 15px;
+}
+
+.time-online-member1-in-right{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+.img-rating-of-member1-in-right{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -18px;
+}
+
+.paragraph-review-of-member1-in-right{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* End memeber1 in right of  review */
+
+
+/* Start memeber2 in right of review */
+.detail-member2-of-review-in-right{
+    display: flex;
+}
+
+.name-of-member2-in-right{
+    margin-left: 10px;  
+    font-size: 15px;
+}
+
+.time-online-member2-in-right{
+    margin-left: 10px;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+.img-rating-of-member2-in-right{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -18px;
+}
+
+.paragraph-review-of-member2-in-right{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* End memeber2 in right of review */
+
+
+/* End review*/
+
+
 
 /* End content */
