@@ -354,7 +354,7 @@
 }
 
 .header-of-review{
-    width: 1162px;
+    width: 1250px;
     height: 151px;
     grid-area: header;
     /* background-color: red; */
@@ -554,6 +554,345 @@
 
 /* End review*/
 
+/* Start item-related-products-in-content */
+.item-related-products-in-content{
+    margin-top: 95px;
+}
 
+
+.title-related-in-content{
+    width: 1250px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheadline-in-related-products-in-content{
+    display: flex;
+}
+
+.icon-right-in-related-products{
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+
+.item-product-in-related-products{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Start Item jerry */
+.title-of-item-jerry{
+    margin-top: 10px;
+    width: 277px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline-of-item-jerry{
+  font-size: 25px;
+}
+
+.img-icon-heart-of-item-jerry{
+    width: 25px;
+    height: 25px;
+}
+
+.price-of-item-jerry{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #0cc0d8;
+}
+
+.ratting-of-item-jerry{
+    width: 277px;
+    height: auto;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.quantity-has-been-sold-item-jerry{
+    color: #9b9fa9;
+}
+/* End item Jerry */
+
+/* Start item butter */
+.title-of-item-butter{
+    margin-top: 10px;
+    width: 277px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline-of-item-butter{
+  font-size: 25px;
+}
+
+.img-icon-heart-of-item-butter{
+    width: 25px;
+    height: 25px;
+}
+
+.price-of-item-butter{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #0cc0d8;
+}
+
+.ratting-of-item-butter{
+    width: 277px;
+    height: auto;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.quantity-has-been-sold-item-butter{
+    color: #9b9fa9;
+}
+/* End item butter */
+
+/* Start item kiwi */
+.title-of-item-kiwi{
+    margin-top: 10px;
+    width: 277px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline-of-item-kiwi{
+  font-size: 25px;
+}
+
+.img-icon-heart-of-item-butter{
+    width: 25px;
+    height: 25px;
+}
+
+.price-of-item-kiwi{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #0cc0d8;
+}
+
+.ratting-of-item-kiwi{
+    width: 277px;
+    height: auto;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.quantity-has-been-sold-item-kiwi{
+    color: #9b9fa9;
+}
+
+/* End item kiwi */
+
+/* Start item mardarin */
+.title-of-item-mandarin{
+    margin-top: 10px;
+    width: 277px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline-of-item-mandarin{
+  font-size: 25px;
+}
+
+.img-icon-heart-of-item-mandarin{
+    width: 25px;
+    height: 25px;
+}
+
+.price-of-item-mandarin{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #0cc0d8;
+}
+
+.ratting-of-item-mandarin{
+    width: 277px;
+    height: auto;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.quantity-has-been-sold-item-mandarin{
+    color: #9b9fa9;
+}
+/* End item mardarin */
 
 /* End content */
+
+
+/* Start footer */
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 183px;
+}
+
+.headline-in-footer{
+    text-align: center;
+}
+
+.sub-headline-in-footer{
+    font-size: 28px;
+    margin-top: 45px;
+}
+
+.input-information-in-footer{
+    margin-top: 26px;
+}
+
+.icon-envelope-in-footer{
+    position: absolute;
+    margin-top: 8px;
+    left: 39%;
+}
+
+.input-in4-in-footer{
+    width: 264px;
+    height: 32px;
+    background-color: #f3f4f6;
+}
+
+.btn-subrice-in-footer{
+    width: 110px;
+    height: 32px;
+    background-color: #0cc0d8;
+    color: white;
+}
+
+.list-item-in-footer{
+    margin-top: 90px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-item-in-plan_pricing,
+.list-item-in-company,
+.list-item-in-resources,
+.list-item-in-product{
+    line-height: 50px;
+    list-style: none;
+}
+
+.item1-in-list{
+    margin-left: -55px;
+}
+
+.item2-in-list{
+    margin-left: -53px;
+}
+
+/* Start Item product in content */
+.item2-in-list-product{
+    margin-left: -70px;
+}
+
+/* End item product in content */
+
+
+/* Start item resources */
+.item1-in-list-resources{
+    margin-left: -130px;
+}
+
+.item2-in-list-resources{
+    margin-left: -79px;
+}
+
+.item3-in-list-resources{
+    margin-left: -95px;
+}
+
+/* End item resources */
+
+
+/* Start item company in footer */
+.item1-in-list-company{
+    margin-left: -75px;
+}
+
+.item2-in-list-company{
+    margin-left: -65px;
+}
+
+/* End item company in footer */
+
+/* Start item plan pricing */
+.item1-in-list-plan{
+    margin-left: -170px;
+}
+
+.item2-in-list-plan{
+    margin-left: -175px;
+}
+
+.item3-in-list-plan{
+    margin-left: -140px;
+}
+/* End item plan pricing */
+
+
+
+
+/* Start detail the shop in footer */
+
+.detail-the-shop-in-footer{
+    justify-content: space-between;
+    width: 1185px;
+    display: flex;
+    margin-left: 140px;
+}
+
+#left-detail-the-shop{
+    /* margin-left: 140px; */
+}
+
+.section-in-left-detail-the-shop{
+    width: 134px;
+    height: 30px;
+    background-color: #f3f4f6;
+}
+
+#center-detail-the-shop{
+    display: flex;
+}
+
+.paragraph-in-center-detail-the-shop{
+    color: #8e949f;
+}
+
+.list-item-center-detail-the-shop{
+    display: flex;
+}
+
+.list-item-center-detail-the-shop > li{
+    margin-left: 23px;
+    color: #8e949f;
+}
+
+#right-detail-the-shop > div >  img{
+    margin-left: 15px;
+}
+
+/* End detail the shop in footer */
+
+
+/* End footer */
+
